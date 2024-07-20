@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <title>Название проекта</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
@@ -12,8 +16,16 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="#">
-      <img class="main-header__logo-image" src="./images/" width="33" height="38" alt="Логотип сайта Cat Energy">
-      <img class="main-header__logo-text" src="./images/" width="101" height="18" alt="Дополнение к логотипу Cat Energy">
+      <picture>
+        <source media="(min-width:1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-picture-desc.svg">
+        <source media="(min-width:768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-picture-tabl.svg">
+        <img class="main-header__logo-image" src="images/logo-picture-mobile.svg" width="33" height="38" alt="Логотип сайта Cat Energy">
+      </picture>
+      <picture>
+        <source media="(min-width:1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-text-tabl-desc.svg">
+        <source media="(min-width:768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-text-tabl-desc.svg">
+        <img class="main-header__logo-text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Дополнение к логотипу Cat Energy">
+      </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toogle" type="button">
@@ -42,7 +54,11 @@
           Функциональное <br>питание для котов
         </h1>
         <p class="hero__slogan">Занялся собой? Займись котом!</p>
-        <img class="hero__image" src="./images/hero-image.jpg" width="280" height="270" alt="Пример продукции Cat Energy">
+        <picture>
+          <source media="(min-width: 1440px)" width="552" height="499" type="image/jpeg" srcset="images/hero-product-desktop@1x.jpg 1x, images/hero-product-desktop@2x.jpg 2x">
+          <source media="(min-width: 768px)" width="709" height="609" type="image/jpeg" srcset="images/hero-product-tablet@1x.jpg 1x, images/hero-product-tablet@2x.jpg 2x">
+          <img class="hero__image" src="images/hero-product-mobile@1x.jpg" srcset="images/hero-product-mobile@2x.jpg 2x" width="280" height="270" alt="Пример продукции Cat Energy">
+        </picture>
         <a class="hero__button button-style" href="#">
           Подобрать программу
         </a>
@@ -115,7 +131,14 @@
         <p class="example-result__cost">
           Затраты на питание: 15 000 руб.
         </p>
-        <img class="example-result__image" src="./images/" width="280" height="256" alt="Сравнительная фотография котов, показывающая результат работы программы">
+        <picture>
+          <source media="(min-width:768px)" width="560" height="512" type="image/jpeg" srcset="images/result-cat-fat-desktop@1x.jpg 1x, images/result-cat-fat-desktop@2x.jpg 2x">
+          <img class="example-result__image" src="images/result-cat-fat-mobile@1x.jpg" srcset="images/result-cat-fat-mobile@2x.jpg 2x" width="280" height="256" alt="Сравнительная фотография результата программы, толстый котик">
+        </picture>
+        <picture>
+          <source media="(min-width:768px)" width="560" height="512" type="image/jpeg" srcset="images/result-cat-slim-desktop@1x.jpg 1x, images/result-cat-slim-desktop@2x.jpg 2x,">
+          <img class="example-result__image" src="images/result-cat-slim-mobile@1x.jpg" srcset="images/result-cat-slim-mobile@2x.jpg 2x" width="280" height="256" alt="Сравнительная фотография результата программы, худой котик">
+        </picture>
       </div>
     </section>
     <section class="collaboration">
@@ -126,14 +149,18 @@
         <p class="collaboration__address">
           ул. Большая <br>Конюшенная, д. 19/8 <br>Санкт-Петербург
         </p>
-        <img class="collaboration__map" src="./images/" width="320" height="362" alt="Карта, с указание точки расположения офиса">
+        <picture>
+          <source media="(min-width:1440px)" width="1440" height="440" type="image/jpeg" srcset="images/location-desk@1x.jpg 1x, images/location-desk@2x.jpg 2x">
+          <source media="(min-width:768px)" width="768" height="400" type="image/jpeg" srcset="images/location-tabl@1x.jpg 1x, images/location-tabl@2x.jpg 2x">
+          <img class="collaboration__map" src="images/location-mobile@1x.jpg" srcset="images/location-mobile@2x.jpg" width="320" height="362" alt="Карта, с указание точки расположения офиса">
+        </picture>
       </div>
     </section>
   </main>
   <footer class="main-footer">
     <div class="main-footer__wrapper">
       <a class="main-footer__logo" href="#">
-        <img class="main-footer__logo-text" src="./images/" width="128" height="24" alt="Дополнение к логотипу Cat Energy">
+        <img class="main-footer__logo-text" src="images/" width="128" height="24" alt="Дополнение к логотипу Cat Energy">
       </a>
       <ul class="main-footer__list social-list">
         <li class="social-list__item">
@@ -163,7 +190,7 @@
       </ul>
       <a href="https://htmlacademy.ru/">
         <span class="main-footer__copyright-text">html academy</span>
-        <img class="main-footer__copyright-image" src="./images/" width="27" height="34" alt="Ссылка на сайт .html academy">
+        <img class="main-footer__copyright-image" src="images/" width="27" height="34" alt="Ссылка на сайт .html academy">
       </a>
     </div>
   </footer>
