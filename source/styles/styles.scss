@@ -2,6 +2,25 @@
 @import "./common/variables.scss";
 @import "./common/global.scss";
 @import "./common/fonts.scss";
+@import "./common/visually-hidden";
 
 /* BLOCKS */
+@import "./blocks/page.scss";
 @import "./blocks/header.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav";
+@import "./blocks/main-container";
+@import "./blocks/hero";
+@import "./blocks/button-style.scss";
+@import "./blocks/programm-nutrition";
+@import "./blocks/description-programm";
+@import "./blocks/example-result";
+@import "./blocks/product-catalog";
+@import "./blocks/product-list";
+@import "./blocks/parameter-list";
+@import "./blocks/additional-products.scss";
+@import "./blocks/add-product-list.scss";
+@import "./blocks/product-promotion";
+@import "./blocks/collaboration";
+@import "./blocks/main-footer";
+@import "./blocks/social-list.scss";
