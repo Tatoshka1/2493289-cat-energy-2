@@ -1,0 +1,17 @@
+.description-list {
+  margin: 0;
+  padding: 0;
+}
+
+.description-list__item-explan {
+  font-family: $secondery-font;
+  font-size: 14px;
+  line-height: 1.29;
+  color: $primary-dark-grey;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

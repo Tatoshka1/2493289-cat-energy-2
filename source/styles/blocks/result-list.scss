@@ -1,0 +1,21 @@
+.result-list__item-parameter {
+  font-size: 24px;
+  line-height: 1;
+  color: $primary-black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 1.23;
+  }
+}
+
+.result-list__item-description-result {
+  font-family: $secondery-font;
+  font-size: 12px;
+  line-height: 1;
+  color: $primary-dark-grey;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+  }
+}

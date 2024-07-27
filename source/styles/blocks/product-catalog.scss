@@ -3,7 +3,14 @@
 }
 
 .product-catalog__title {
+  font-size: 36px;
+  line-height: 1;
+  color: $primary-black;
+  margin: 0;
 
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+  }
 }
 
 .product-catalog__list {
@@ -15,11 +22,29 @@
 }
 
 .product-catalog__all-products-title {
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $secondary-black;
+  margin: 0;
 
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 1.2;
+  }
 }
 
 .product-catalog__all-products-desc {
+  font-family: $secondery-font;
+  font-size: 12px;
+  line-height: 1.33;
+  color: $primary-dark-grey;
+  margin: 0;
 
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 1.12;
+  }
 }
 
 .product-catalog__all-products-button {

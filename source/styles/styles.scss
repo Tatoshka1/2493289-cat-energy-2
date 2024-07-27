@@ -7,14 +7,18 @@
 
 /* BLOCKS */
 @import "./blocks/body.scss";
+@import "./blocks/container.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-nav";
 @import "./blocks/main-container";
 @import "./blocks/hero";
 @import "./blocks/button-style.scss";
 @import "./blocks/programm-nutrition";
+@import "./blocks/programm-list";
 @import "./blocks/description-programm";
+@import "./blocks/description-list";
 @import "./blocks/example-result";
+@import "./blocks/result-list";
 @import "./blocks/product-catalog";
 @import "./blocks/product-list";
 @import "./blocks/parameter-list";

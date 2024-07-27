@@ -2,14 +2,18 @@
 
 }
 
-.description-programm__wrapper {
-
-}
-
 .description-programm__title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: $primary-black;
+  margin: 0;
 
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 1;
+  }
 }
 
 .description-programm__list {
-
 }
+

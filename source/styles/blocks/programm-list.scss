@@ -1,50 +1,41 @@
-.example-result {
-
+.programm-list {
+  background-color: $primary-light-grey;
 }
 
-.example-result__title {
-  font-size: 36px;
-  line-height: 1.11;
-  color: $primary-black;
-  margin: 0;
-
-  @media (min-width: $tablet-width) {
-    font-size: 60px;
-    line-height: 1;
-  }
-}
-
-.example-result__explan {
-  font-family: $secondery-font;
-  font-size: 14px;
-  line-height: 1.29;
-  color: $primary-dark-grey;
-  margin: 0;
-
-  @media (min-width: $tablet-width) {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-}
-
-.example-result__stats {
-
-}
-
-.example-result__stats-list {
-
-}
-
-
-.example-result__cost {
-  font-size: 14px;
-  line-height: 1.43;
+.programm-list__item-title {
+  font-size: 24px;
+  line-height: 1.54;
   text-transform: uppercase;
   color: $primary-black;
   margin: 0;
 
   @media (min-width: $tablet-width) {
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1;
+  }
+}
+
+.programm-list__item-description {
+  font-family: $secondery-font;
+  font-size: 14px;
+  line-height: 1.29;
+  color: $secondary-dark-grey;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    color: $primary-black;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.programm-list__item-button {
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: $primary-black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
   }
 }

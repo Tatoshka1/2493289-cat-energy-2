@@ -1,5 +1,14 @@
 .parameter-list {
+  padding: 0;
+  font-family: $secondery-font;
+  font-size: 12px;
+  line-height: 1.33;
+  color: $primary-dark-grey;
 
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .parameter-list__item {

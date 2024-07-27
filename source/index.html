@@ -15,42 +15,44 @@
 
 <body class="body">
   <header class="main-header">
-    <a class="main-header__logo" href="#">
-      <picture>
-        <source media="(min-width:1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-picture-desc.svg">
-        <source media="(min-width:768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-picture-tabl.svg">
-        <img class="main-header__logo-image" src="images/logo-picture-mobile.svg" width="33" height="38" alt="Логотип сайта Cat Energy">
-      </picture>
-      <picture>
-        <source media="(min-width:1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-text-tabl-desc.svg">
-        <source media="(min-width:768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-text-tabl-desc.svg">
-        <img class="main-header__logo-text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Дополнение к логотипу Cat Energy">
-      </picture>
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toogle" type="button">
-        <span class="visually-hidden">Открыть меню
-        </span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--current">
-            <a href="#">Главная</a>
-          </li>
-          <li class="site-list__item">
-            <a href="catalog.html">Каталог продукции</a>
-          </li>
-          <li class="site-list__item">
-            <a href="#">Подбор программы</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <a class="main-header__logo" href="#">
+        <picture>
+          <source media="(min-width:1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-picture-desc.svg">
+          <source media="(min-width:768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-picture-tabl.svg">
+          <img class="main-header__logo-image" src="images/logo-picture-mobile.svg" width="33" height="38" alt="Логотип сайта Cat Energy">
+        </picture>
+        <picture>
+          <source media="(min-width:1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-text-tabl-desc.svg">
+          <source media="(min-width:768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-text-tabl-desc.svg">
+          <img class="main-header__logo-text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Дополнение к логотипу Cat Energy">
+        </picture>
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toogle" type="button">
+          <span class="visually-hidden">Открыть меню
+          </span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a href="#">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="catalog.html">Каталог продукции</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
   <main class="main-container">
     <section class="hero">
-      <div class="hero__wrapper">
-        <h1 class="hero__title hero__title--mobile">
+      <div class="container">
+        <h1 class="hero__title">
           Функциональное <br>питание для котов
         </h1>
         <p class="hero__slogan">Занялся собой? Займись котом!</p>
@@ -65,8 +67,8 @@
       </div>
     </section>
     <section class="programm-nutrition">
-      <h2 class="visually-hidden">Список программ для вашего кота</h2>
-      <div class="programm-nutrition__wrapper">
+      <div class="container">
+        <h2 class="visually-hidden">Список программ для вашего кота</h2>
         <ul class="programm-nutrition__list programm-list">
           <li class="programm-list__item">
             <h3 class="programm-list__item-title">Похудение</h3>
@@ -82,7 +84,7 @@
       </div>
     </section>
     <section class="description-programm">
-      <div class="description-programm__wrapper">
+      <div class="container">
         <h2 class="description-programm__title">Как это работает</h2>
         <ul class="description-programm__list description-list">
           <li class="description-list__item">
@@ -109,7 +111,7 @@
       </div>
     </section>
     <section class="example-result">
-      <div class="example-result__wrapper">
+      <div class="container">
         <h2 class="example-result__title">
           Живой пример
         </h2>
@@ -119,12 +121,12 @@
         <div class="example-result__stats">
           <ul class="example-result__stats-list result-list">
             <li class="result-list__item">
-              <span class="result-list__item-description">5 кг</span>
-              <span class="result-list__item-description">снижение веса</span>
+              <span class="result-list__item-parameter">5 кг</span>
+              <span class="result-list__item-description-result">снижение веса</span>
             </li>
             <li class="result-list__item">
-              <span class="result-list__item-description">60 дней</span>
-              <span class="result-list__item-description">затрачено времени</span>
+              <span class="result-list__item-parameter">60 дней</span>
+              <span class="result-list__item-description-result">затрачено времени</span>
             </li>
           </ul>
         </div>
@@ -142,7 +144,7 @@
       </div>
     </section>
     <section class="collaboration">
-      <div class="collaboration__wrapper">
+      <div class="container">
         <h2 class="collaboration__title">
           Приглашаем к сотрудничеству дилеров!
         </h2>
@@ -158,7 +160,7 @@
     </section>
   </main>
   <footer class="main-footer">
-    <div class="main-footer__wrapper">
+    <div class="container">
       <a class="main-footer__logo" href="#">
         <img src="images/" width="128" height="24" alt="Дополнение к логотипу Cat Energy">
       </a>
