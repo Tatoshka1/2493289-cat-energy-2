@@ -1,0 +1,33 @@
+.product-list {
+  margin: 0;
+  padding: 0;
+}
+
+.product-list__item {
+
+}
+
+.product-list__item-title {
+  font-size: 16px;
+  line-height: 1.25;
+  color: $secondary-dark-grey;
+  text-transform: uppercase;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.product-list__wrapper {
+
+}
+
+.product-list__parameter {
+
+}
+
+.product-list__item-button {
+
+}

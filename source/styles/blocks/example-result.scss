@@ -1,0 +1,50 @@
+.example-result {
+
+}
+
+.example-result__title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: $primary-black;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+
+.example-result__explan {
+  font-family: $secondery-font;
+  font-size: 14px;
+  line-height: 1.29;
+  color: $primary-dark-grey;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.example-result__stats {
+
+}
+
+.example-result__stats-list {
+
+}
+
+
+.example-result__cost {
+  font-size: 14px;
+  line-height: 1.43;
+  text-transform: uppercase;
+  color: $primary-black;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 1;
+  }
+}

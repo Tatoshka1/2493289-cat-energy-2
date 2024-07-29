@@ -1,0 +1,42 @@
+.product-promotion {
+
+}
+
+.product-promotion__title {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+  }
+}
+
+.product-promotion__desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: $primary-black;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+}
+
+.product-promotion__subscribe {
+
+}
+
+.product-promotion__subscribe-input {
+
+}
+
+.product-promotion__subscribe-button {
+
+}
+

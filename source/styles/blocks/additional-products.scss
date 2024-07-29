@@ -1,0 +1,29 @@
+.additional-products {
+
+}
+
+.additional-products__title {
+  font-size: 24px;
+  line-height: 1;
+  color: $primary-black;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+  }
+}
+
+.additional-products__list {
+
+}
+
+.additional-products__present {
+  font-family: $secondery-font;
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 0;
+}

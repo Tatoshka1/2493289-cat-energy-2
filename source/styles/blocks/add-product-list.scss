@@ -1,0 +1,45 @@
+.add-product-list {
+  margin: 0;
+  padding: 0;
+}
+
+.add-product-list__item {
+
+}
+
+.add-product-list__item-title {
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: $secondary-dark-grey;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
+}
+
+.add-product-list__item-desc {
+  font-family: $secondery-font;
+  font-size: 14px;
+  line-height: 1;
+  color: $primary-dark-grey;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.add-product-list__item-cost {
+  font-family: $secondery-font;
+  font-size: 14px;
+  line-height: 1;
+  color: $primary-dark-grey;
+  margin: 0;
+}
+
+.add-product-list__item-button {
+
+}
