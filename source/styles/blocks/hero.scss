@@ -1,6 +1,9 @@
 .hero {
   @media (width: $mobile-width-only) {
-    background-image: url("../../images/hero-cat-mobile@1x.jpg");
+    background-image:
+      image-set(
+        url("../../images/hero-cat-mobile@1x.jpg") type("image/jpg") 1x,
+        url("../../images/hero-cat-mobile@2x.jpg") type("image/jpg") 2x );
     background-repeat: no-repeat;
     width: 320px;
     min-height: 302px;
@@ -37,8 +40,4 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
   }
-}
-
-.hero__button {
-
 }
