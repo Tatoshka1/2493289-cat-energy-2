@@ -3,11 +3,7 @@
   padding: 0;
 }
 
-.product-list__item {
-
-}
-
-.product-list__item-title {
+.product-list__title {
   font-size: 16px;
   line-height: 1.25;
   color: $secondary-dark-grey;
@@ -20,14 +16,16 @@
   }
 }
 
-.product-list__wrapper {
+.product-list__description {
+  font-family: $secondery-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $primary-dark-grey;
+  margin: 0;
 
-}
-
-.product-list__parameter {
-
-}
-
-.product-list__item-button {
-
+  @media (min-width: $tablet-width) {
+    line-height: 1.12;
+  }
 }
