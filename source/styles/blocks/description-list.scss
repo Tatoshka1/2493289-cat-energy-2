@@ -15,3 +15,13 @@
     line-height: 1.5;
   }
 }
+
+.description-list__item::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: $base-green;
+
+  position: absolute;
+
+}
