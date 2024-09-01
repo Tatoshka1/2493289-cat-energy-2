@@ -1,0 +1,33 @@
+.slider-button {
+  border: none;
+  background-color: $white;
+}
+
+.slider-button::before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: $decor-dark-grey;
+  border-radius: 2px;
+  cursor: pointer;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.slider-button::after {
+  content: "";
+  width: 24px;
+  height: 18px;
+  background-color: $decor-dark-grey;
+  mask-image: url("../../icons/stack.svg#move-slider");
+  mask-repeat: no-repeat;
+  mask-size: 24px 18px;
+  padding: ;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 50%;
+  left: 5px;
+}

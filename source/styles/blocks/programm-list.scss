@@ -48,7 +48,11 @@
   border-radius: 50%;
 
   position: absolute;
-  left: 10px;
+  left: -45px;
+}
+
+.programm-list__item--slim {
+  position: relative;
 }
 
 .programm-list__item--slim::after {
@@ -60,10 +64,13 @@
   height: 50px;
 
   position: absolute;
-  top: 5px;
-  left: 20px;
+  top: -2px;
+  left: -36px;
 }
 
+.programm-list__item--fat {
+  position: relative;
+}
 
 .programm-list__item--fat::after {
   content: "";
@@ -74,8 +81,12 @@
   height: 28px;
 
   position: absolute;
-  bottom: 60px;
-  left: 0;
+  top: 15px;
+  left: -57px;
+}
+
+.programm-list__item-button {
+  position: relative;
 }
 
 .programm-list__item-button::after {
@@ -83,12 +94,12 @@
   mask-image: url("../../icons/stack.svg#arrow");
   mask-repeat: no-repeat;
   mask-size: 24px 12px;
-  //   mask-position: 100%;
+  mask-position: 100%;
   width: 24px;
   height: 12px;
   background-color: $primary-black;
 
   position: absolute;
-  bottom: 20px;
-  left: 225px;
+  top: 6px;
+  right: -34px;
 }

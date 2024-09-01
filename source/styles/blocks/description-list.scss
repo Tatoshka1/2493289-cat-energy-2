@@ -16,12 +16,61 @@
   }
 }
 
-.description-list__item::before {
+.description-list__item {
+  position: relative;
+}
+
+.description-list__item::after {
   content: "";
   width: 60px;
   height: 60px;
   background-color: $base-green;
 
   position: absolute;
+  top: 0;
+  left: 0;
+}
 
+.description-list__item--sheet::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#explan-sheet");
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  background-position: center;
+  display: block;
+
+  position: absolute;
+}
+
+.description-list__item--eat::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#explan-eat");
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  background-position: center;
+  display: block;
+
+  position: absolute;
+}
+
+.description-list__item--fork-knife::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#explan-fork-knife");
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  background-position: center;
+  display: block;
+
+  position: absolute;
+}
+
+.description-list__item--watch::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#explain-watch");
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  background-position: center;
+  display: block;
+
+  position: absolute;
 }
