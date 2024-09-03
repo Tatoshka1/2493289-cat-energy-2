@@ -16,18 +16,16 @@
   top: 0;
 }
 
-.slider-button::after {
+.slider-button--toogle::after {
   content: "";
-  width: 24px;
-  height: 18px;
-  background-color: $decor-dark-grey;
-  mask-image: url("../../icons/stack.svg#move-slider");
-  mask-repeat: no-repeat;
-  mask-size: 24px 18px;
-  padding: ;
-  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #666666;
 
   position: absolute;
   top: 50%;
-  left: 5px;
+  left: -20px;
 }
+
