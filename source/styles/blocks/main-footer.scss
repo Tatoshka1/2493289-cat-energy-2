@@ -1,23 +1,30 @@
-.main-footer {
-
-}
-
-.main-footer__wrapper {
-
-}
-
-.main-footer__logo {
-
-}
-
 .main-footer__list {
-
+  margin: 0;
+  padding: 0;
 }
 
-.main-footer__copyright-text {
+.main-footer__copyright {
+  font-family: $secondery-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $primary-dark-grey;
+  text-decoration: none;
 
+  display: block;
+  position: relative;
 }
 
-.main-footer__copyright-image {
+.main-footer__copyright::after {
+  content: "";
+  mask-image: url("../../icons/stack.svg#logo-html-academy");
+  mask-size: 27px 34px;
+  width: 27px;
+  height: 34px;
+  background-color: $primary-dark-grey;
+  display: block;
 
+  position: absolute;
+  bottom: 0;
+  left: 200px;
 }

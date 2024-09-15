@@ -1,13 +1,20 @@
-.social-list {
-
-}
-
-.social-list__item {
-
-}
-
 .social-list__item-link {
-
+  background-color: $decor-dark-grey;
+  mask-repeat: no-repeat;
+  mask-size: 28px 22px;
+  width: 28px;
+  height: 22px;
+  display: block;
 }
 
+.social-list__item-link--vkontakte {
+  mask-image: url("../../icons/stack.svg#vkontakte");
+}
 
+.social-list__item-link--youtube {
+  mask-image: url("../../icons/stack.svg#youtube");
+}
+
+.social-list__item-link--telegram {
+  mask-image: url("../../icons/stack.svg#telegram");
+}

@@ -1,13 +1,4 @@
-.add-product-list {
-  margin: 0;
-  padding: 0;
-}
-
-.add-product-list__item {
-
-}
-
-.add-product-list__item-title {
+.card-additional-products__title {
   font-size: 16px;
   line-height: 1;
   text-transform: uppercase;
@@ -19,7 +10,7 @@
   }
 }
 
-.add-product-list__item-desc {
+.card-additional-products__description {
   font-family: $secondery-font;
   font-size: 14px;
   line-height: 1;
@@ -32,14 +23,10 @@
   }
 }
 
-.add-product-list__item-cost {
+.card-additional-products__cost {
   font-family: $secondery-font;
   font-size: 14px;
   line-height: 1;
   color: $primary-dark-grey;
   margin: 0;
-}
-
-.add-product-list__item-button {
-
 }

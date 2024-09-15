@@ -1,7 +1,3 @@
-.example-result {
-
-}
-
 .example-result__title {
   font-size: 36px;
   line-height: 1.11;
@@ -27,15 +23,6 @@
   }
 }
 
-.example-result__stats {
-
-}
-
-.example-result__stats-list {
-
-}
-
-
 .example-result__cost {
   font-size: 14px;
   line-height: 1.43;
@@ -47,4 +34,9 @@
     font-size: 20px;
     line-height: 1;
   }
+}
+
+.example-result__stats-list {
+  margin: 0;
+  padding: 0;
 }

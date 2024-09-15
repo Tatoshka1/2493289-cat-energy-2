@@ -39,3 +39,67 @@
     font-size: 20px;
   }
 }
+
+.programm-list__item::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: $base-green;
+  border-radius: 50%;
+
+  position: absolute;
+  left: -45px;
+}
+
+.programm-list__item--slim {
+  position: relative;
+}
+
+.programm-list__item--slim::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#cat-slim");
+  background-repeat: no-repeat;
+  background-size: 36px 50px;
+  width: 36px;
+  height: 50px;
+
+  position: absolute;
+  top: -2px;
+  left: -36px;
+}
+
+.programm-list__item--fat {
+  position: relative;
+}
+
+.programm-list__item--fat::after {
+  content: "";
+  background-image: url("../../icons/stack.svg#cat-fat");
+  background-repeat: no-repeat;
+  background-size: 67px 28px;
+  width: 67px;
+  height: 28px;
+
+  position: absolute;
+  top: 15px;
+  left: -57px;
+}
+
+.programm-list__item-button {
+  position: relative;
+}
+
+.programm-list__item-button::after {
+  content: "";
+  mask-image: url("../../icons/stack.svg#arrow");
+  mask-repeat: no-repeat;
+  mask-size: 24px 12px;
+  mask-position: 100%;
+  width: 24px;
+  height: 12px;
+  background-color: $primary-black;
+
+  position: absolute;
+  top: 6px;
+  right: -34px;
+}

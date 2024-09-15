@@ -15,3 +15,37 @@
     line-height: 1.5;
   }
 }
+
+.description-list__item {
+  position: relative;
+}
+
+.description-list__item::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: $base-green;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 32px;
+  display: block;
+}
+
+.description-list__item--sheet::before {
+  background-image: url("../../icons/stack.svg#explan-sheet");
+}
+
+.description-list__item--eat::before {
+  content: "";
+  background-image: url("../../icons/stack.svg#explan-eat");
+}
+
+.description-list__item--fork-knife::before {
+  content: "";
+  background-image: url("../../icons/stack.svg#explan-fork-knife");
+}
+
+.description-list__item--watch::before {
+  content: "";
+  background-image: url("../../icons/stack.svg#explain-watch");
+}
