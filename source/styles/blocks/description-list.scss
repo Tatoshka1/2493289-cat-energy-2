@@ -20,57 +20,32 @@
   position: relative;
 }
 
-.description-list__item::after {
+.description-list__item::before {
   content: "";
   width: 60px;
   height: 60px;
   background-color: $base-green;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.description-list__item--sheet::after {
-  content: "";
-  background-image: url("../../icons/stack.svg#explan-sheet");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 30px 32px;
-  background-position: center;
   display: block;
-
-  position: absolute;
 }
 
-.description-list__item--eat::after {
+.description-list__item--sheet::before {
+  background-image: url("../../icons/stack.svg#explan-sheet");
+}
+
+.description-list__item--eat::before {
   content: "";
   background-image: url("../../icons/stack.svg#explan-eat");
-  background-repeat: no-repeat;
-  background-size: 30px 32px;
-  background-position: center;
-  display: block;
-
-  position: absolute;
 }
 
-.description-list__item--fork-knife::after {
+.description-list__item--fork-knife::before {
   content: "";
   background-image: url("../../icons/stack.svg#explan-fork-knife");
-  background-repeat: no-repeat;
-  background-size: 30px 32px;
-  background-position: center;
-  display: block;
-
-  position: absolute;
 }
 
-.description-list__item--watch::after {
+.description-list__item--watch::before {
   content: "";
   background-image: url("../../icons/stack.svg#explain-watch");
-  background-repeat: no-repeat;
-  background-size: 30px 32px;
-  background-position: center;
-  display: block;
-
-  position: absolute;
 }
