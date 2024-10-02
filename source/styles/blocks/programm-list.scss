@@ -1,5 +1,8 @@
-.programm-list {
+.programm-list__item {
   background-color: $primary-light-grey;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .programm-list__item-title {
@@ -8,6 +11,7 @@
   text-transform: uppercase;
   color: $primary-black;
   margin: 0;
+  padding: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
@@ -15,12 +19,21 @@
   }
 }
 
+.programm-list__item-title--slim {
+  margin: 10px 59px 9px 70px;
+}
+
+.programm-list__item-title--fat {
+  margin: 10px 20px 9px 70px;
+}
+
 .programm-list__item-description {
   font-family: $secondery-font;
   font-size: 14px;
   line-height: 1.29;
   color: $secondary-dark-grey;
-  margin: 0;
+  padding: 0 15px 15px;
+  margin: 0 18px 23px 5px;
 
   @media (min-width: $tablet-width) {
     color: $primary-black;
@@ -48,7 +61,8 @@
   border-radius: 50%;
 
   position: absolute;
-  left: -45px;
+  top: 23px;
+  left: 20px;
 }
 
 .programm-list__item--slim {
@@ -64,8 +78,8 @@
   height: 50px;
 
   position: absolute;
-  top: -2px;
-  left: -36px;
+  top: 21px;
+  left: 25px;
 }
 
 .programm-list__item--fat {
@@ -81,12 +95,17 @@
   height: 28px;
 
   position: absolute;
-  top: 15px;
-  left: -57px;
+  top: 35px;
+  left: 9px;
 }
 
 .programm-list__item-button {
   position: relative;
+  font-size: 16px;
+  color: $primary-black;
+  padding: 0 20px 20px;
+  margin: 0 158px 2px 0;
+  text-decoration: none;
 }
 
 .programm-list__item-button::after {
@@ -100,6 +119,7 @@
   background-color: $primary-black;
 
   position: absolute;
-  top: 6px;
-  right: -34px;
+  top: 2px;
+  right: -15px;
 }
+

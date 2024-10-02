@@ -2,32 +2,9 @@
   font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
-}
 
-.main-nav__toogle {
-  @media (min-width: $mobile-width-only) {
-    mask-image: url("../../icons/stack.svg#burger-menu");
-    mask-repeat: no-repeat;
-    background-color: $primary-black;
-    mask-size: 24px 24px;
-    border: none;
-    width: 24px;
-    height: 24px;
+  @media (max-width: $mobile-width-only) {
+    display: none;
   }
-
-  // .main-nav__toogle:hover {
-  //   background-color: $base-green;
-  // }
 }
 
-// .main-nav__toogle--close {
-//   @media (min-width: $mobile-width-only) {
-//     mask-image: url("../../icons/stack.svg#close-burger-menu");
-//     mask-repeat: no-repeat;
-//     background-color: $primary-black;
-//     mask-size: 24px 24px;
-//     border: none;
-//     width: 24px;
-//     height: 24px;
-//   }
-// }
